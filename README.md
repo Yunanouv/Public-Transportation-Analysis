@@ -62,6 +62,78 @@ Identify corridors and time periods with projected increases in demand and plan 
 <br>  
 
 ## Data Analysis  
-1. Demographic Analysis
+### 1. Demographic Analysis  
+**a. Age Group Distribution** <br>
+<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/5d57f300-953f-4814-a1ab-1dc9778f942f">  
+<br>  
+Based on [this source](https://www.mentalfloss.com/article/609811/age-ranges-millennials-and-generation-z), we can group the age of passengers to see the age distribution.  
+Age Group by Generation:  
 
-2. Business Analysis 
+- Baby Boomer : 1946 - 1964  
+- Gen X : 1965-1980  
+- Millenials : 1981-1996  
+- Gen Z : 1997-2012
+
+Based on the age group distribution analysis presented in the bar chart and pie chart:
+
+- Millennials as the Largest User Group
+The bar chart shows that Millennials (born between 1981 and 1996) are the largest user group of Transjakarta services, with a total count of 17,847 transactions. This indicates that nearly half of the users fall within this age group. The pie chart confirms this, showing that Millennials constitute 48.9% of the total transactions.
+
+- Significant Usage by Gen Z Gen Z (born between 1997 and 2012) follows as the second-largest group, with 11,574 transactions, accounting for 31.7% of the total transactions. This indicates that younger users are also a major segment of Transjakarta's user base.
+
+- Moderate Use by Gen X Gen X (born between 1965 and 1980) represents a smaller portion of the user base, with 6,284 transactions, which translates to 17.2% of the total transactions. This suggests that middle-aged users are moderately using the services.
+
+- Minimal Use by Baby Boomers Baby Boomers (born between 1946 and 1964) are the smallest user group, with only 798 transactions, making up 2.2% of the total transactions. This indicates that older users are the least likely to use Transjakarta services.
+
+**b. Vehicle Type Distribution**  <br> 
+<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/6364a313-26a9-4d8d-9589-1327da624234">
+<br>
+Based on the vehicle type distribution analysis presented in the bar chart and pie chart:  
+**Trans Jakarta Dominance** from the bar chart shows that the majority of transactions are attributed to Trans Jakarta, with a total count of 18,393 transactions. This indicates that Trans Jakarta is the most utilized vehicle type among passengers.
+
+**Significant Use of Jak Lingko Jak Lingko** follows closely with 16,423 transactions. This suggests that Jak Lingko also plays a significant role in the public transportation network, catering to a substantial portion of the passenger demand.
+
+**Limited Use of Royal Trans Royal Trans** has the least number of transactions, with only 1,687 transactions. This indicates that Royal Trans is the least utilized vehicle type among the three, possibly due to its fare amount since its the highest.
+
+Proportional Representation The pie chart provides a clear visual representation of the ratio of vehicle types:
+
+- Trans Jakarta constitutes 50.4% of the total transactions.
+- Jak Lingko accounts for 45.0% of the total transactions.
+- Royal Trans makes up a smaller proportion with 4.6% of the total transactions.  
+
+**c. The Comparison Between Gender Based on Vehicle Type**  <br>  
+<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/4b693af5-7286-4c4b-b71f-75814f5bef9f">
+<br>  
+
+Jak Lingko is more frequently used by females compared to males.  
+Both genders have a relatively low and almost equal usage of Royal Trans, with females slightly higher.  
+Trans Jakarta has a higher usage by females compared to males, similar to Jak Lingko.   
+
+Overall Insights
+
+Across all vehicle types, female users tend to have higher transaction counts compared to male users. The highest usage for both genders is observed in Trans Jakarta, followed by Jak Lingko, and the least usage is in Royal Trans. The pattern indicates that public transport services might consider focusing on improving and tailoring their services towards the preferences and needs of female users, especially since they form a significant proportion of the user base.  
+<br>
+
+**d. Pay Card Bank and Vehicle Type** <br>  
+<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/07b63842-bdc1-425c-897d-790692dd1b1e">
+<br>  
+
+- **High Transaction Volume for Specific Banks:**
+DKI and BRI (BRIZZI) have the highest transaction volumes among the paycard banks, with DKI leading significantly for both Transjakarta and Jak Lingko vehicles.
+E-MONEY also shows a considerable number of transactions, especially for Transjakarta.  
+
+- **Vehicle Type Preferences:**
+The chart indicates a strong preference for Transjakarta vehicles when using the DKI and E-MONEY paycards.  
+Jak Lingko vehicles see a high transaction volume with DKI and BRIZZI paycards.  
+Royal Trans has the lowest transaction volume across all paycard banks, indicating it is the least used vehicle type among the three.
+
+**e. Peak Hours Analysis**  <br>  
+<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/49cf3617-b3a8-4026-8557-62d0f96c37cc">
+<br>  
+**Peak Usage Times**   
+The busiest times for Transjakarta are during the morning (5-9 AM) and evening (4-7 PM) rush hours, indicating high commuter traffic during these periods.  
+**Off-Peak Times**  
+Midday (10 AM - 2 PM) sees significantly lower usage, suggesting these hours could be used for maintenance or service adjustments.
+These insights can help in planning service frequency and capacity to meet high demand during peak hours and optimize operations during off-peak times.
+
+### 2. Business Analysis 
