@@ -41,10 +41,27 @@ Identify corridors and time periods with projected increases in demand and plan 
 |**13.	tapInStopsLon** | Longitude of Tap In Stops |
 |**14.	stopStartSeq** | Sequence of the stops, 1st stop, 2nd stops etc. Related to direction |
 |**15.	tapInTime** | Time of tap in. Date and time |
-|**16.	tapOutStops** | BTap Out (Exit) Stops ID for identifying stops name|
+|**16.	tapOutStops** | Tap Out (Exit) Stops ID for identifying stops name|
 |**17.	tapOutStopsName** | Tap out (exit) Stops Name where customers tap out|  
 |**18.	tapOutStopsLat** | Latitude of Tap Out Stops |
 |**19.	tapOutStopsLon** | Longitude of Tap Out Stops |
 |**20.	stopEndSeq** | Sequence of the stops, 1st stop, 2nd stops etc. Related to direction |
 |**21.	tapOutTime** |Time of tap out. Date and time |
 |**22.	payAmount** | The number of what customers pay. Some are free. Some not |
+<br>
+
+1. This dataset has 37,900 records with 22 features about transportation (Transjakarta).  
+2. There are 10 features containing null values, the `corridorID`, `corridorName`, `tapInStops`, `tapOutStops`, `tapOutStopsName`, `tapOutStopsLat`, `tapOutStopsLon`, `stopEndSeq`, `tapOutTime`, and `payAmount`.    
+3. After exploring and deep analysis, the `corridorID` and `corridorName` have a correlation where the corridor ID has its corresponding name, and the same thing also applied to `tapInStops` - `tapInStopsName` and `tapOutStops` - `tapOutStopsName, so we can map the null values using its corresponding name. 
+4. `payAmount` has 3 types of amount, there are :  
+   - 0 : JakLingko  
+   - 3500 : Transjakarta  
+   - 20000 : Royal Trans
+  We also found that `payAmount` has correlation with `corridorID` where `corridorID` has its own pay amount. 
+  
+<br>  
+
+## Data Analysis  
+1. Demographic Analysis
+
+2. Business Analysis 
