@@ -221,4 +221,7 @@ Monitor the vehicle needed trends over time and identify any patterns or recurri
 ### 4. Capacity Planning  
 Use the insights from the analysis to inform capacity planning decisions. Consider investing in additional vehicles or adjusting the capacity of existing vehicles to align with the demand fluctuations observed throughout the day.  
 
-By implementing these recommendations, the transportation service can improve operational efficiency, enhance customer satisfaction, and optimize resource utilization, ultimately leading to a more sustainable and profitable business model.
+By implementing these recommendations, the transportation service can improve operational efficiency, enhance customer satisfaction, and optimize resource utilization, ultimately leading to a more sustainable and profitable business model.  
+
+Please checkout my Transjakarta [dashboard](https://public.tableau.com/app/profile/yuna.nouv/viz/TransJakarta_17176923334730/MainDashboard?publish=yes) and [story](https://public.tableau.com/app/profile/yuna.nouv/viz/TransJakarta_17176165985990/TJStory?publish=yes).  
+Thank You!
