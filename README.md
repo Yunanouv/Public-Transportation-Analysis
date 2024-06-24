@@ -64,7 +64,7 @@ Identify corridors and time periods with projected increases in demand and plan 
 ## Data Analysis  
 ### 1. Demographic Analysis  
 **a. Age Group Distribution** <br>
-<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/5d57f300-953f-4814-a1ab-1dc9778f942f">  
+<img width="800" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/5d57f300-953f-4814-a1ab-1dc9778f942f">  
 <br>  
 Based on [this source](https://www.mentalfloss.com/article/609811/age-ranges-millennials-and-generation-z), we can group the age of passengers to see the age distribution.  
 Age Group by Generation:  
@@ -86,7 +86,7 @@ The bar chart shows that Millennials (born between 1981 and 1996) are the larges
 - Minimal Use by Baby Boomers Baby Boomers (born between 1946 and 1964) are the smallest user group, with only 798 transactions, making up 2.2% of the total transactions. This indicates that older users are the least likely to use Transjakarta services.
 
 **b. Vehicle Type Distribution**  <br> 
-<img width="750" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/6364a313-26a9-4d8d-9589-1327da624234">
+<img width="800" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/6364a313-26a9-4d8d-9589-1327da624234">
 <br>
 Based on the vehicle type distribution analysis presented in the bar chart and pie chart:  
 **Trans Jakarta Dominance** from the bar chart shows that the majority of transactions are attributed to Trans Jakarta, with a total count of 18,393 transactions. This indicates that Trans Jakarta is the most utilized vehicle type among passengers.
@@ -136,4 +136,89 @@ The busiest times for Transjakarta are during the morning (5-9 AM) and evening (
 Midday (10 AM - 2 PM) sees significantly lower usage, suggesting these hours could be used for maintenance or service adjustments.
 These insights can help in planning service frequency and capacity to meet high demand during peak hours and optimize operations during off-peak times.
 
-### 2. Business Analysis 
+### 2. Business Analysis  
+
+**a. Peak Days Identification**  <br>  
+<img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/7886f68d-2fa2-4eff-a8d5-3c9daa0f4913">
+<br>   
+**Weekday vs. Weekend Usage**   
+Transjakarta sees higher usage during weekdays compared to weekends, suggesting that it is predominantly used for commuting purposes.
+**Special Attention to Peak Days**   
+The spike on April 14th could be due to a special event or increased commuter activity, warranting further investigation to understand the cause and prepare for similar future occurrences.
+
+**b. Peak Hours Identification based on Peak Dates**  <br>  
+<img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/ba432427-fdb1-4749-8229-ff0443f6eddf">
+<br>  
+**Morning Peak**
+The highest transaction volume occurs at 6 AM, with a sharp peak exceeding 1,400 transactions.  
+There is a noticeable drop in transactions following the 6 AM peak, stabilizing around 700-800 transactions by 7 AM.  
+
+**Evening Peak**  
+Another significant peak occurs at 5 PM, with transactions spiking again to around 1,200 transactions.  
+Post-5 PM, there is a gradual decline in transactions through the evening.  
+
+**Low Activity Periods**
+The lowest transaction volumes are observed during the midday hours, specifically between 10 AM and 3 PM.  
+
+**Consistent Patterns on Peak Dates**
+The transaction trends for the peak dates (April 13, 14, 17, 18, and 19) consistently show two main peaks at 6 AM and 5 PM.  
+<br>
+
+**c. Crowded Corridors**  <br>  
+<img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/5df5760b-d5e9-470d-b905-7e08001af647">  
+<br>  
+
+From graph and also analysis for most active corridors, the crowded corridor goes to Rusun Flamboyan - Cengkareng with 2021 total transactions in 29 active days.  
+<br>  
+
+**d. Rusun Flamboyan-Cengkareng** <br>  
+  **1. Daily Transcations in Rusun Flamboyan-Cengkareng**  <br>
+  <img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/3043f61a-fb71-4fae-a62e-0a83d7dd04e7">
+<br>
+
+    - Peak Transaction Day  
+    The highest transaction volume was observed on April 19, with over 100 transactions. This indicates a significant spike in activity on this day.  
+    
+    - Consistent Highs and Lows  
+    There are several other days with high transaction volumes exceeding 80 transactions, notably at the beginning of the month (April 3 and 5) and mid-month (April 17).
+    The lowest transaction volumes are generally observed on weekends, particularly around April 7-8 and April 21-22, where transactions drop close to zero.   
+    
+    - Weekend Trends  
+    The graph shows noticeable dips in transaction activity during weekends, suggesting that fewer people are using Transjakarta services on these days.  
+    
+    - Weekday Patterns    
+    Weekdays show more consistent transaction volumes, with fluctuations indicating varying levels of daily usage but generally higher than weekends.
+<br>
+
+  **2. Hourly Transaction Count by Vehicle Type**  <br>
+  <img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/8acfb338-c651-4afb-9866-a16ad8152690">
+<br>
+  The graph above shows the transaction in Rusun Flamboyan - Cengkareng based on vehicle type. Jaklingko shows the highest transaction, follows by Transjakarta and Royal Trans.
+
+  **3. Forecast Future Demand** <br>
+  <img width="850" alt="image" src="https://github.com/Yunanouv/Public-Transportation-Analysis/assets/146415555/c3cc6b1c-46f9-4c69-a037-aa88ecf61c30">
+<br>  
+  From the previous graph where we know the total transactions for each vehicle type, we can forecast future demand based on capacity for each vehicle type.  
+Based on the [official Twitter](https://x.com/PT_Transjakarta/status/1396816204652703745) of TransJakarta, the capacity of Transjakarta is 30 people.   
+Based on [this article](https://poskota.co.id/2022/01/29/angkot-ac-mikrotrans-resmi-beroperasi-di-jakarta-begini-spesifikasi-mewahnya), the capacity of Jak Lingko is 11 people at max.  
+Based on [this article](https://www.ranselaryani.com/royal-trans-jurusan-bekasi-barat-blok-m-dan-rute-terbaru/), the capacity of Royal Trans is 43 people at max.  
+
+<br>  
+
+## Business Recommendation  
+
+Based on the analysis of the hourly vehicle needed data for the "Rusun Flamboyan - Cengkareng" corridor, we can make the following business recommendations:  
+  
+### 1. Peak Hours Optimization  
+Identify the peak hours when the demand for vehicles is high. During these hours, ensure that there are enough vehicles available to meet the demand. Consider deploying additional vehicles or adjusting schedules to accommodate the peak demand.   
+
+### 2. Resource Allocation  
+Allocate resources efficiently based on the hourly variation in vehicle demand. Prioritize the allocation of vehicles to hours with the highest vehicle needed to ensure optimal utilization of resources.  
+
+### 3. Service Improvement  
+Monitor the vehicle needed trends over time and identify any patterns or recurring issues. Use this information to improve service quality and ensure that vehicles are available when needed, enhancing customer satisfaction.  
+
+### 4. Capacity Planning  
+Use the insights from the analysis to inform capacity planning decisions. Consider investing in additional vehicles or adjusting the capacity of existing vehicles to align with the demand fluctuations observed throughout the day.  
+
+By implementing these recommendations, the transportation service can improve operational efficiency, enhance customer satisfaction, and optimize resource utilization, ultimately leading to a more sustainable and profitable business model.
